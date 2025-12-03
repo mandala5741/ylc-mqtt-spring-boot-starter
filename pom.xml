@@ -7,7 +7,7 @@
     <artifactId>ylc-mqtt-spring-boot-starter</artifactId>
     <version>1.0.2</version>
     <name>Mqtt Spring Boot Starter</name>
-    <description>基于车牌识别 Mqtt解析 Spring Boot Starter(查看源码的readme.md)</description>
+    <description>基于车牌识别 Mqtt解析 Spring Boot Starter(说明请查看源码的readme.md实现)</description>
     <url>https://github.com/mandala5741/ylc-mqtt-spring-boot-starter</url>
 
     <properties>
