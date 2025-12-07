@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.mandala5741</groupId>
+    <groupId>cn.cqylc.platform</groupId>
     <artifactId>ylc-mqtt-spring-boot-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>Mqtt Spring Boot Starter</name>
     <description>基于车牌识别 Mqtt解析 Spring Boot Starter(说明请查看源码的readme.md实现)</description>
     <url>https://github.com/mandala5741/ylc-mqtt-spring-boot-starter</url>

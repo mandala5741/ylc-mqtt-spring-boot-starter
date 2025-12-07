@@ -15,7 +15,6 @@ public class NettyTcpHandler {
 
 	private final NettyService nettyService;
 
-	@Autowired
 	public NettyTcpHandler(NettyService nettyService) {
 		this.nettyService = nettyService;
 	}

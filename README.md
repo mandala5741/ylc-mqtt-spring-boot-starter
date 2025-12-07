@@ -10,15 +10,15 @@ netty:
 
 ## 引入依赖 是rs485协议加密发送相机的内容
 <dependency>
-    <groupId>io.github.mandala5741</groupId>
+    <groupId>cn.cqylc.platform</groupId>
     <artifactId>ylc-smart-spring-boot-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 ## 引入依赖 进行mqtt服务接收服务
 <dependency>
-    <groupId>io.github.mandala5741</groupId>
+    <groupId>cn.cqylc.platform</groupId>
     <artifactId>ylc-mqtt-spring-boot-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 
 ## 测试主动下发controller
