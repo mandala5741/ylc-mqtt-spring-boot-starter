@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.cqylc.platform</groupId>
     <artifactId>ylc-mqtt-spring-boot-starter</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <name>Mqtt Spring Boot Starter</name>
     <description>基于车牌识别 Mqtt解析 Spring Boot Starter(说明请查看源码的readme.md实现)</description>
     <url>https://github.com/mandala5741/ylc-mqtt-spring-boot-starter</url>
 
     <properties>
         <hutool.version>5.8.42</hutool.version>
-        <spring-boot.version>3.5.8</spring-boot.version>
+        <spring-boot.version>3.5.9</spring-boot.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.release>17</maven.compiler.release>
@@ -113,7 +113,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version>
+                <version>3.14.1</version>
                 <configuration>
                     <source>17</source>
                     <target>17</target>
@@ -131,7 +131,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.4.0</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -146,7 +146,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.11.2</version>
+                <version>3.12.0</version>
                 <configuration>
                     <show>private</show>
                     <nohelp>true</nohelp>
@@ -170,7 +170,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>3.2.7</version>
+                <version>3.2.8</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
@@ -186,14 +186,14 @@
             <plugin>
                 <groupId>org.sonatype.central</groupId>
                 <artifactId>central-publishing-maven-plugin</artifactId>
-                <version>0.5.0</version>
+                <version>0.9.0</version>
                 <extensions>true</extensions>
             </plugin>
             <!-- Maven Deploy 插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.1.4</version>
             </plugin>
         </plugins>
     </build>
