@@ -1,6 +1,5 @@
 package com.cqcloud.platform.handler;
 
-import cn.hutool.core.lang.func.VoidFunc0;
 import cn.hutool.extra.spring.SpringUtil;
 import com.cqcloud.platform.service.NettyService;
 import com.fasterxml.jackson.databind.ObjectMapper;

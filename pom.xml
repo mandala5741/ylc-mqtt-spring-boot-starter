@@ -11,13 +11,13 @@
     <url>https://github.com/mandala5741/ylc-mqtt-spring-boot-starter</url>
 
     <properties>
-        <hutool.version>5.8.42</hutool.version>
-        <spring-boot.version>3.5.9</spring-boot.version>
+        <hutool.version>5.8.43</hutool.version>
+        <spring-boot.version>3.5.10</spring-boot.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.release>17</maven.compiler.release>
         <commons-lang3.version>3.20.0</commons-lang3.version>
-        <maven.compiler.version>3.14.0</maven.compiler.version>
+        <maven.compiler.version>3.14.1</maven.compiler.version>
         <spring.checkstyle.version>0.0.47</spring.checkstyle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
